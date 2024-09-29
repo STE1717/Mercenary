@@ -1,1 +1,18 @@
+{
+  "name": "Mercenary OFFICIAL",
+  "version": "1.0.0",
+  "description": "A Discord bot that sends welcome messages to new members.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
 
