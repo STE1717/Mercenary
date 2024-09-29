@@ -15,7 +15,7 @@ client.on('guildMemberAdd', async (member) => {
     console.log(`User joined: ${member.user.tag}`);
 
     // Find the channel where the welcome message should be sent
-    const welcomeChannel = member.guild.channels.cache.get('1280492883199266937');
+    const welcomeChannel = member.guild.channels.cache.get('1280492883199266937'); // Your welcome channel ID
 
     if (welcomeChannel) {
         // Create the embed message
@@ -52,5 +52,4 @@ client.on('guildMemberAdd', async (member) => {
 });
 
 // Log the bot into the Discord API using the token
-client.login('MTI4ODkzMTI0MTQ4NzIzNzIyNA.GYQv6p.Bbc5I5GYg2bTaS-5ZOKoF5LaF71UUc2UWC1Vx4'); // Replace 'YOUR_BOT_TOKEN_HERE' with your actual bot token
-
+client.login('MTI4ODkzMTI0MTQ4NzIzNzIyNA.GZ0RnX.SDprap6s-B4nVY4DD9BULs3PJgXwpIT2mravio'); // Replace 'YOUR_BOT_TOKEN_HERE' with your actual bot token
